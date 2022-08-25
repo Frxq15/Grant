@@ -1,0 +1,19 @@
+NO_PERMISSION: "&cYou dont have permission to perform this command."
+PLAYER_NOT_FOUND: "&7[&aMelonMC&7] &7The player you specified could not be found."
+RANK_NOT_FOUND: "&7[&aMelonMC&7] &7A rank with the name &a%rank% &7could not be found."
+RANK_GIVEN: "&7[&aMelonMC&7] &7You granted the rank &a%rank% &7to &a%player%&7."
+RANK_REMOVED: "&7[&aMelonMC&7] &7You removed the rank &a%rank% &7from &a%player%&7."
+
+#insert ranks below with a stringlist of commands to execute
+#commands support %player% and %executor%
+RANKS:
+  OWNER:
+    ADD_COMMANDS:
+      - "lp user %player% parent add Owner server=ffa-v2"
+    REMOVE_COMMANDS:
+      - "lp user %player% parent remove Owner server=ffa-v2"
+  DEVELOPER:
+    ADD_COMMANDS:
+      - "lp user %player% parent add Developer server=ffa-v2"
+    REMOVE_COMMANDS:
+      - "lp user %player% parent remove Developer server=ffa-v2"

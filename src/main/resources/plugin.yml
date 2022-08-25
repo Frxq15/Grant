@@ -1,0 +1,12 @@
+name: Grant
+version: '${project.version}'
+main: org.melonmc.grant.Grant
+authors: [ Frxq15 ]
+
+commands:
+  rankgrant:
+    usage: /rankgrant <player> <rank>
+    aliases: [grantrank]
+  removerank:
+    usage: /removerank <player> <rank>
+    aliases: [ungrant]
